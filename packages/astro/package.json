@@ -1,0 +1,47 @@
+{
+  "name": "@heydeacon/astro",
+  "version": "1.0.0",
+  "description": "Astro integration that adds the Deacon chat widget to every page of your site.",
+  "keywords": [
+    "astro",
+    "astro-integration",
+    "withastro",
+    "deacon",
+    "chat widget",
+    "support"
+  ],
+  "homepage": "https://heydeacon.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heydeacon/astro-deacon.git",
+    "directory": "packages/astro"
+  },
+  "bugs": {
+    "url": "https://github.com/heydeacon/astro-deacon/issues"
+  },
+  "author": "Deacon <hello@heydeacon.com> (https://heydeacon.com)",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "astro": ">=5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

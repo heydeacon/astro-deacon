@@ -1,0 +1,51 @@
+{
+  "name": "@heydeacon/starlight",
+  "version": "1.0.0",
+  "description": "Starlight plugin that adds the Deacon chat widget to every page of your docs.",
+  "keywords": [
+    "astro",
+    "withastro",
+    "starlight",
+    "starlight-plugin",
+    "deacon",
+    "chat widget",
+    "support"
+  ],
+  "homepage": "https://heydeacon.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heydeacon/astro-deacon.git",
+    "directory": "packages/starlight"
+  },
+  "bugs": {
+    "url": "https://github.com/heydeacon/astro-deacon/issues"
+  },
+  "author": "Deacon <hello@heydeacon.com> (https://heydeacon.com)",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@heydeacon/astro": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@astrojs/starlight": ">=0.33.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
