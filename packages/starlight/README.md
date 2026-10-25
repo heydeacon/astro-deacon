@@ -1,8 +1,6 @@
 # @heydeacon/starlight
 
-Adds the [Deacon](https://heydeacon.com) chat widget to every page of your Starlight docs.
-
-Deacon is an AI support agent that answers questions from your own docs and content, and says when it doesn't know.
+[Deacon](https://heydeacon.com) is an AI support agent that answers questions from your own docs and content, and says when it doesn't know. This plugin adds its chat widget to every page of your Starlight docs.
 
 You need a Deacon account, and there's a free plan.
 

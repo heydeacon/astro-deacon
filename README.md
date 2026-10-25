@@ -1,6 +1,6 @@
 # Deacon for Astro and Starlight
 
-Two packages that add the [Deacon](https://heydeacon.com) chat widget to every page:
+[Deacon](https://heydeacon.com) is an AI support agent that answers questions from your own docs and content, and says when it doesn't know. These two packages add its chat widget to every page:
 
 - [@heydeacon/astro](packages/astro) for any Astro site
 - [@heydeacon/starlight](packages/starlight) for Starlight docs

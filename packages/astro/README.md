@@ -1,8 +1,6 @@
 # @heydeacon/astro
 
-Adds the [Deacon](https://heydeacon.com) chat widget to every page of an Astro site. For Starlight docs, use [@heydeacon/starlight](https://www.npmjs.com/package/@heydeacon/starlight) instead.
-
-Deacon is an AI support agent that answers questions from your own docs and content, and says when it doesn't know.
+[Deacon](https://heydeacon.com) is an AI support agent that answers questions from your own docs and content, and says when it doesn't know. This integration adds its chat widget to every page of an Astro site. For Starlight docs, use [@heydeacon/starlight](https://www.npmjs.com/package/@heydeacon/starlight) instead.
 
 You need a Deacon account, and there's a free plan.
 
